@@ -1,0 +1,22 @@
+description: "Minimal Test for Speed"
+providers:
+  - id: https
+    config:
+      url: http://127.0.0.1:8000/query # Ensure this is correct
+      method: POST
+      headers:
+        Content-Type: application/json
+      body: |
+        {
+          "question": "{{ question }}"
+        }
+      transformResponse: json
+tests:
+  - vars:
+      question: "Hi" # A very simple question
+    assert:
+      - type: contains # A very simple assertion
+        value: "Hello" # Or whatever a simple response might be
+writeLatestResults: true
+commandLineOptions:
+  cache: false # Disable cache to ensure fresh calls for debugging
