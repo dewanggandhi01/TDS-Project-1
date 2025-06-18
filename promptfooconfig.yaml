@@ -1,0 +1,196 @@
+description: "TDS Virtual TA Project - Enhanced RAG API with AIPipe Integration"
+
+# Define prompts for the evaluation (required by promptfoo)
+prompts:
+  - "Answer this question using the RAG knowledge base: {{ question }}"
+
+# Configure providers for the evaluation
+providers:
+  # Our enhanced RAG API endpoint using HTTP provider (Vercel deployment)
+  - id: https://tds-project-1-ruby-one.vercel.app/query
+    config:
+      method: POST
+      headers:
+        Content-Type: application/json
+      body:
+        question: "{{ question }}"
+      
+  # AIPipe provider for LLM evaluations using OpenAI-compatible format
+  - id: openai:chat:gpt-4o-mini
+    config:
+      apiBaseUrl: https://aipipe.org/openai/v1
+      apiKey: eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDQ3ODFAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.LNS3YvOYKsR5DfM6zsipSSVINhKHXK9EjLas-lqIyQI
+      temperature: 0.1
+      max_tokens: 100
+
+# Tests configuration
+tests:
+  - description: "Test model choice clarification with image"
+    vars:
+      question: "The question asks to use gpt-3.5-turbo-0125 model but the ai-proxy provided by Anand sir only supports gpt-4o-mini. So should we just use gpt-4o-mini or use the OpenAI API for gpt3.5 turbo?"
+      image: "file://project-tds-virtual-ta-q1.webp"
+    assert:
+      # Check that answer addresses the model choice OR indicates missing info
+      - type: javascript
+        value: |
+          try {
+            let textToCheck = '';
+            if (typeof output === 'string') {
+              textToCheck = output.toLowerCase();
+            } else if (output && typeof output === 'object') {
+              textToCheck = JSON.stringify(output).toLowerCase();
+            } else {
+              textToCheck = String(output || '').toLowerCase();
+            }
+            
+            // Check if it mentions the model choice OR appropriately indicates missing info
+            const hasModelMention = textToCheck.includes('gpt-4o-mini') || textToCheck.includes('gpt-3.5-turbo');
+            const indicatesMissingInfo = ['couldn\'t find', 'not found', 'no information', 'not available'].some(phrase => textToCheck.includes(phrase));
+            
+            const passes = hasModelMention || indicatesMissingInfo;
+            
+            return {
+              pass: passes,
+              score: passes ? 1 : 0,
+              reason: hasModelMention ? 'Mentions model choice' : (indicatesMissingInfo ? 'Appropriately indicates missing info' : 'No relevant model info or missing info indication')
+            };
+          } catch (e) {
+            return {
+              pass: false,
+              score: 0,
+              reason: `Error checking response: ${e.message}`
+            };
+          }
+      # Check that we got a meaningful answer
+      - type: javascript
+        value: |
+          try {
+            // Handle both raw JSON string and parsed object
+            let data;
+            if (typeof output === 'string') {
+              data = JSON.parse(output);
+            } else {
+              data = output;
+            }
+            
+            const answer = data.answer || '';
+            const hasContent = answer && answer.trim().length > 0;
+            
+            return {
+              pass: hasContent,
+              score: hasContent ? 1 : 0,
+              reason: hasContent ? `Got response: ${answer.substring(0, 50)}...` : 'Empty or missing answer'
+            };
+          } catch (e) {
+            // Fallback for non-JSON responses
+            const answer = output || '';
+            const hasContent = answer && answer.trim().length > 0;
+            return {
+              pass: hasContent,
+              score: hasContent ? 1 : 0,
+              reason: hasContent ? `Got response: ${answer.substring(0, 50)}...` : 'Empty response'
+            };
+          }
+
+  - description: "Test GA4 scoring question"
+    vars:
+      question: "If a student scores 10/10 on GA4 as well as a bonus, how would it appear on the dashboard?"
+    assert:
+      # Check for dashboard score mention
+      - type: contains
+        value: "110"
+
+  - description: "Test Docker vs Podman recommendation"
+    vars:
+      question: "I know Docker but have not used Podman before. Should I use Docker for this course?"
+    assert:
+      # Check for Podman recommendation
+      - type: contains-any
+        value: [Podman, podman]
+      # Check for Docker mention
+      - type: contains-any
+        value: [Docker, docker]
+
+  - description: "Test unknown information handling"
+    vars:
+      question: "When is the TDS Sep 2025 end-term exam?"
+    assert:
+      # Should indicate lack of information - check for various forms
+      - type: javascript
+        value: |
+          try {
+            let textToCheck = '';
+            if (typeof output === 'string') {
+              textToCheck = output.toLowerCase();
+            } else if (output && typeof output === 'object') {
+              textToCheck = JSON.stringify(output).toLowerCase();
+            } else {
+              textToCheck = String(output || '').toLowerCase();
+            }
+            
+            const phrases = [
+              "couldn't find", "could not find", "cannot find", "can't find",
+              "not available", "not found", "no information", "don't have",
+              "insufficient information", "unable to find", "no access"
+            ];
+            
+            const found = phrases.some(phrase => textToCheck.includes(phrase));
+            return {
+              pass: found,
+              score: found ? 1 : 0,
+              reason: found ? 'Correctly indicates missing information' : 'Does not indicate missing information clearly'
+            };
+          } catch (e) {
+            return {
+              pass: false,
+              score: 0,
+              reason: `Error checking response: ${e.message}`
+            };
+          }
+
+  - description: "Test data visualization tools"
+    vars:
+      question: "What tools are recommended for data visualization in TDS?"
+    assert:
+      # Basic response validation
+      - type: javascript
+        value: |
+          try {
+            // Handle both raw JSON string and parsed object
+            let data;
+            if (typeof output === 'string') {
+              data = JSON.parse(output);
+            } else {
+              data = output;
+            }
+            
+            const answer = data.answer || '';
+            const hasContent = answer && answer.trim().length > 0;
+            
+            return {
+              pass: hasContent,
+              score: hasContent ? 1 : 0,
+              reason: hasContent ? `Got response: ${answer.substring(0, 50)}...` : 'Empty or missing answer'
+            };
+          } catch (e) {
+            // Fallback for non-JSON responses
+            const answer = output || '';
+            const hasContent = answer && answer.trim().length > 0;
+            return {
+              pass: hasContent,
+              score: hasContent ? 1 : 0,
+              reason: hasContent ? `Got response: ${answer.substring(0, 50)}...` : 'Empty response'
+            };
+          }
+
+# Configuration options
+writeLatestResults: true
+outputPath: ./promptfoo_results.json
+
+commandLineOptions:
+  cache: false  # Disable cache to fix latency assertions
+  verbose: true
+  
+# Sharing and output options
+sharing:
+  enabled: false

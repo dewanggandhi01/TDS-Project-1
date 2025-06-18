@@ -1,0 +1,347 @@
+2025-06-19 00:25:30 | INFO     | root:103 | <module>() | 🚀 Starting RAG Query API application
+2025-06-19 00:25:30 | INFO     | root:104 | <module>() | 📁 Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 00:25:30 | INFO     | root:105 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:30 | INFO     | root:106 | <module>() | 📝 Database exists: True
+2025-06-19 00:25:30 | INFO     | root:110 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 00:25:30 | INFO     | root:112 | <module>() | 📊 Configuration loaded:
+2025-06-19 00:25:30 | INFO     | root:113 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 00:25:30 | INFO     | root:114 | <module>() |    - Max results: 15
+2025-06-19 00:25:30 | INFO     | root:115 | <module>() |    - Max context chunks: 4
+2025-06-19 00:25:30 | INFO     | root:116 | <module>() |    - Request timeout: 30
+2025-06-19 00:25:30 | INFO     | root:117 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 00:25:30 | INFO     | root:118 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 00:25:30 | INFO     | root:124 | <module>() | � Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 00:25:30 | INFO     | root:125 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:30 | INFO     | root:126 | <module>() | 📝 Database exists: True
+2025-06-19 00:25:30 | INFO     | root:130 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 00:25:30 | INFO     | root:133 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 00:25:30 | INFO     | root:134 | <module>() |    - Max results: 15
+2025-06-19 00:25:30 | INFO     | root:135 | <module>() |    - Max context chunks: 4
+2025-06-19 00:25:30 | INFO     | root:136 | <module>() |    - Request timeout: 30s
+2025-06-19 00:25:30 | INFO     | root:137 | <module>() |    - Max retries: 3
+2025-06-19 00:25:30 | INFO     | root:138 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 00:25:30 | INFO     | root:139 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 00:25:30 | INFO     | root:149 | <module>() | ✅ AIPipe API key configured: eyJhbGci...IyQI
+2025-06-19 00:25:30 | INFO     | root:240 | <module>() | ✅ FastAPI application initialized with enhanced middleware
+2025-06-19 00:25:30 | INFO     | root:276 | initialize_database() | 🗄️  Initializing database...
+2025-06-19 00:25:30 | INFO     | root:285 | initialize_database() | 📂 Using existing database: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:30 | INFO     | root:379 | initialize_database() | 📊 Database statistics:
+2025-06-19 00:25:30 | INFO     | root:380 | initialize_database() |    - Discourse chunks: 3651 (0 with embeddings)
+2025-06-19 00:25:30 | INFO     | root:381 | initialize_database() |    - Markdown chunks: 380 (0 with embeddings)
+2025-06-19 00:25:30 | INFO     | root:382 | initialize_database() | ✅ Database initialization completed
+2025-06-19 00:25:30 | INFO     | root:1746 | <module>() | 🖥️  Server configuration:
+2025-06-19 00:25:30 | INFO     | root:1747 | <module>() |    - Host: 0.0.0.0
+2025-06-19 00:25:30 | INFO     | root:1748 | <module>() |    - Port: 8000
+2025-06-19 00:25:30 | INFO     | root:1749 | <module>() |    - Reload: True
+2025-06-19 00:25:30 | INFO     | root:1750 | <module>() |    - Workers: 1
+2025-06-19 00:25:30 | INFO     | root:1751 | <module>() |    - Log level: info
+2025-06-19 00:25:30 | INFO     | root:1770 | <module>() |    - Development mode with auto-reload
+2025-06-19 00:25:30 | INFO     | root:1772 | <module>() | 🌟 Starting Enhanced RAG Knowledge Base API server...
+2025-06-19 00:25:30 | INFO     | root:1773 | <module>() | 📚 Database: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:30 | INFO     | root:1774 | <module>() | 🔗 AIPipe endpoint: https://aipipe.org
+2025-06-19 00:25:30 | INFO     | root:1775 | <module>() | 🤖 Models: embedding=text-embedding-3-small, chat=gpt-4o-mini
+2025-06-19 00:25:31 | INFO     | root:103 | <module>() | 🚀 Starting RAG Query API application
+2025-06-19 00:25:31 | INFO     | root:104 | <module>() | 📁 Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 00:25:31 | INFO     | root:105 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:31 | INFO     | root:106 | <module>() | 📝 Database exists: True
+2025-06-19 00:25:31 | INFO     | root:110 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 00:25:31 | INFO     | root:112 | <module>() | 📊 Configuration loaded:
+2025-06-19 00:25:31 | INFO     | root:113 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 00:25:31 | INFO     | root:114 | <module>() |    - Max results: 15
+2025-06-19 00:25:31 | INFO     | root:115 | <module>() |    - Max context chunks: 4
+2025-06-19 00:25:31 | INFO     | root:116 | <module>() |    - Request timeout: 30
+2025-06-19 00:25:31 | INFO     | root:117 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 00:25:31 | INFO     | root:118 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 00:25:31 | INFO     | root:124 | <module>() | � Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 00:25:31 | INFO     | root:125 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:31 | INFO     | root:126 | <module>() | 📝 Database exists: True
+2025-06-19 00:25:31 | INFO     | root:130 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 00:25:31 | INFO     | root:133 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 00:25:31 | INFO     | root:134 | <module>() |    - Max results: 15
+2025-06-19 00:25:31 | INFO     | root:135 | <module>() |    - Max context chunks: 4
+2025-06-19 00:25:31 | INFO     | root:136 | <module>() |    - Request timeout: 30s
+2025-06-19 00:25:31 | INFO     | root:137 | <module>() |    - Max retries: 3
+2025-06-19 00:25:31 | INFO     | root:138 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 00:25:31 | INFO     | root:139 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 00:25:31 | INFO     | root:149 | <module>() | ✅ AIPipe API key configured: eyJhbGci...IyQI
+2025-06-19 00:25:31 | INFO     | root:240 | <module>() | ✅ FastAPI application initialized with enhanced middleware
+2025-06-19 00:25:31 | INFO     | root:276 | initialize_database() | 🗄️  Initializing database...
+2025-06-19 00:25:31 | INFO     | root:285 | initialize_database() | 📂 Using existing database: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:31 | INFO     | root:379 | initialize_database() | 📊 Database statistics:
+2025-06-19 00:25:31 | INFO     | root:380 | initialize_database() |    - Discourse chunks: 3651 (0 with embeddings)
+2025-06-19 00:25:31 | INFO     | root:381 | initialize_database() |    - Markdown chunks: 380 (0 with embeddings)
+2025-06-19 00:25:31 | INFO     | root:382 | initialize_database() | ✅ Database initialization completed
+2025-06-19 00:25:31 | DEBUG    | asyncio:64 | __init__() | Using selector: SelectSelector
+2025-06-19 00:25:31 | INFO     | root:103 | <module>() | 🚀 Starting RAG Query API application
+2025-06-19 00:25:31 | INFO     | root:104 | <module>() | 📁 Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 00:25:31 | INFO     | root:105 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:31 | INFO     | root:106 | <module>() | 📝 Database exists: True
+2025-06-19 00:25:31 | INFO     | root:110 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 00:25:31 | INFO     | root:112 | <module>() | 📊 Configuration loaded:
+2025-06-19 00:25:31 | INFO     | root:113 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 00:25:31 | INFO     | root:114 | <module>() |    - Max results: 15
+2025-06-19 00:25:31 | INFO     | root:115 | <module>() |    - Max context chunks: 4
+2025-06-19 00:25:31 | INFO     | root:116 | <module>() |    - Request timeout: 30
+2025-06-19 00:25:31 | INFO     | root:117 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 00:25:31 | INFO     | root:118 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 00:25:31 | INFO     | root:124 | <module>() | � Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 00:25:31 | INFO     | root:125 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:31 | INFO     | root:126 | <module>() | 📝 Database exists: True
+2025-06-19 00:25:31 | INFO     | root:130 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 00:25:31 | INFO     | root:133 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 00:25:31 | INFO     | root:134 | <module>() |    - Max results: 15
+2025-06-19 00:25:31 | INFO     | root:135 | <module>() |    - Max context chunks: 4
+2025-06-19 00:25:31 | INFO     | root:136 | <module>() |    - Request timeout: 30s
+2025-06-19 00:25:31 | INFO     | root:137 | <module>() |    - Max retries: 3
+2025-06-19 00:25:31 | INFO     | root:138 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 00:25:31 | INFO     | root:139 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 00:25:31 | INFO     | root:149 | <module>() | ✅ AIPipe API key configured: eyJhbGci...IyQI
+2025-06-19 00:25:31 | INFO     | root:240 | <module>() | ✅ FastAPI application initialized with enhanced middleware
+2025-06-19 00:25:31 | INFO     | root:276 | initialize_database() | 🗄️  Initializing database...
+2025-06-19 00:25:31 | INFO     | root:285 | initialize_database() | 📂 Using existing database: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 00:25:31 | INFO     | root:379 | initialize_database() | 📊 Database statistics:
+2025-06-19 00:25:31 | INFO     | root:380 | initialize_database() |    - Discourse chunks: 3651 (0 with embeddings)
+2025-06-19 00:25:31 | INFO     | root:381 | initialize_database() |    - Markdown chunks: 380 (0 with embeddings)
+2025-06-19 00:25:31 | INFO     | root:382 | initialize_database() | ✅ Database initialization completed
+2025-06-19 00:25:31 | INFO     | root:1674 | startup_event() | 🚀 Application startup initiated...
+2025-06-19 00:25:31 | INFO     | root:1677 | startup_event() | 🔗 Testing AIPipe connectivity during startup...
+2025-06-19 00:25:31 | INFO     | root:442 | test_aipipe_connection() | 🔗 Testing AIPipe connection...
+2025-06-19 00:25:33 | INFO     | root:460 | test_aipipe_connection() | ✅ AIPipe connection successful
+2025-06-19 00:25:33 | INFO     | root:594 | startup_aipipe_test() | 🔌 AIPipe connection status: connected - AIPipe API is accessible
+2025-06-19 00:25:33 | INFO     | root:1685 | startup_event() | 📊 Application startup completed:
+2025-06-19 00:25:33 | INFO     | root:1686 | startup_event() |    - Database chunks: discourse=3651, markdown=380
+2025-06-19 00:25:33 | INFO     | root:1687 | startup_event() |    - Embeddings: discourse=0, markdown=0
+2025-06-19 00:25:33 | INFO     | root:1688 | startup_event() |    - AIPipe status: connected
+2025-06-19 00:25:33 | INFO     | root:1689 | startup_event() |    - Configuration: threshold=0.68, max_results=15
+2025-06-19 00:25:33 | INFO     | root:1691 | startup_event() | ✅ RAG Knowledge Base API is ready to serve requests!
+2025-06-19 01:19:53 | INFO     | root:113 | <module>() | 🚀 Starting RAG Query API application
+2025-06-19 01:19:53 | INFO     | root:114 | <module>() | 📁 Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 01:19:53 | INFO     | root:115 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:53 | INFO     | root:116 | <module>() | 📝 Database exists: True
+2025-06-19 01:19:53 | INFO     | root:120 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 01:19:53 | INFO     | root:122 | <module>() | 📊 Configuration loaded:
+2025-06-19 01:19:53 | INFO     | root:123 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 01:19:53 | INFO     | root:124 | <module>() |    - Max results: 15
+2025-06-19 01:19:53 | INFO     | root:125 | <module>() |    - Max context chunks: 4
+2025-06-19 01:19:53 | INFO     | root:126 | <module>() |    - Request timeout: 30
+2025-06-19 01:19:53 | INFO     | root:127 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 01:19:53 | INFO     | root:128 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 01:19:53 | INFO     | root:134 | <module>() | � Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 01:19:53 | INFO     | root:135 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:53 | INFO     | root:136 | <module>() | 📝 Database exists: True
+2025-06-19 01:19:53 | INFO     | root:140 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 01:19:53 | INFO     | root:143 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 01:19:53 | INFO     | root:144 | <module>() |    - Max results: 15
+2025-06-19 01:19:53 | INFO     | root:145 | <module>() |    - Max context chunks: 4
+2025-06-19 01:19:53 | INFO     | root:146 | <module>() |    - Request timeout: 30s
+2025-06-19 01:19:53 | INFO     | root:147 | <module>() |    - Max retries: 3
+2025-06-19 01:19:53 | INFO     | root:148 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 01:19:53 | INFO     | root:149 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 01:19:53 | INFO     | root:159 | <module>() | ✅ AIPipe API key configured: eyJhbGci...IyQI
+2025-06-19 01:19:53 | INFO     | root:250 | <module>() | ✅ FastAPI application initialized with enhanced middleware
+2025-06-19 01:19:53 | INFO     | root:296 | initialize_database() | 🗄️  Initializing database...
+2025-06-19 01:19:53 | INFO     | root:311 | initialize_database() | 📂 Using existing database: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:53 | INFO     | root:439 | initialize_database() | 📊 Database statistics:
+2025-06-19 01:19:53 | INFO     | root:440 | initialize_database() |    - Discourse chunks: 3651 (0 with embeddings)
+2025-06-19 01:19:53 | INFO     | root:441 | initialize_database() |    - Markdown chunks: 380 (0 with embeddings)
+2025-06-19 01:19:53 | INFO     | root:442 | initialize_database() | ✅ Database initialization completed
+2025-06-19 01:19:53 | INFO     | root:1806 | <module>() | 🖥️  Server configuration:
+2025-06-19 01:19:53 | INFO     | root:1807 | <module>() |    - Host: 0.0.0.0
+2025-06-19 01:19:53 | INFO     | root:1808 | <module>() |    - Port: 8000
+2025-06-19 01:19:53 | INFO     | root:1809 | <module>() |    - Reload: True
+2025-06-19 01:19:53 | INFO     | root:1810 | <module>() |    - Workers: 1
+2025-06-19 01:19:53 | INFO     | root:1811 | <module>() |    - Log level: info
+2025-06-19 01:19:53 | INFO     | root:1830 | <module>() |    - Development mode with auto-reload
+2025-06-19 01:19:53 | INFO     | root:1832 | <module>() | 🌟 Starting Enhanced RAG Knowledge Base API server...
+2025-06-19 01:19:53 | INFO     | root:1833 | <module>() | 📚 Database: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:53 | INFO     | root:1834 | <module>() | 🔗 AIPipe endpoint: https://aipipe.org
+2025-06-19 01:19:53 | INFO     | root:1835 | <module>() | 🤖 Models: embedding=text-embedding-3-small, chat=gpt-4o-mini
+2025-06-19 01:19:54 | INFO     | root:113 | <module>() | 🚀 Starting RAG Query API application
+2025-06-19 01:19:54 | INFO     | root:114 | <module>() | 📁 Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 01:19:54 | INFO     | root:115 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:54 | INFO     | root:116 | <module>() | 📝 Database exists: True
+2025-06-19 01:19:54 | INFO     | root:120 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 01:19:54 | INFO     | root:122 | <module>() | 📊 Configuration loaded:
+2025-06-19 01:19:54 | INFO     | root:123 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 01:19:54 | INFO     | root:124 | <module>() |    - Max results: 15
+2025-06-19 01:19:54 | INFO     | root:125 | <module>() |    - Max context chunks: 4
+2025-06-19 01:19:54 | INFO     | root:126 | <module>() |    - Request timeout: 30
+2025-06-19 01:19:54 | INFO     | root:127 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 01:19:54 | INFO     | root:128 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 01:19:54 | INFO     | root:134 | <module>() | � Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 01:19:54 | INFO     | root:135 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:54 | INFO     | root:136 | <module>() | 📝 Database exists: True
+2025-06-19 01:19:54 | INFO     | root:140 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 01:19:54 | INFO     | root:143 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 01:19:54 | INFO     | root:144 | <module>() |    - Max results: 15
+2025-06-19 01:19:54 | INFO     | root:145 | <module>() |    - Max context chunks: 4
+2025-06-19 01:19:54 | INFO     | root:146 | <module>() |    - Request timeout: 30s
+2025-06-19 01:19:54 | INFO     | root:147 | <module>() |    - Max retries: 3
+2025-06-19 01:19:54 | INFO     | root:148 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 01:19:54 | INFO     | root:149 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 01:19:54 | INFO     | root:159 | <module>() | ✅ AIPipe API key configured: eyJhbGci...IyQI
+2025-06-19 01:19:54 | INFO     | root:250 | <module>() | ✅ FastAPI application initialized with enhanced middleware
+2025-06-19 01:19:54 | INFO     | root:296 | initialize_database() | 🗄️  Initializing database...
+2025-06-19 01:19:54 | INFO     | root:311 | initialize_database() | 📂 Using existing database: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:54 | INFO     | root:439 | initialize_database() | 📊 Database statistics:
+2025-06-19 01:19:54 | INFO     | root:440 | initialize_database() |    - Discourse chunks: 3651 (0 with embeddings)
+2025-06-19 01:19:54 | INFO     | root:441 | initialize_database() |    - Markdown chunks: 380 (0 with embeddings)
+2025-06-19 01:19:54 | INFO     | root:442 | initialize_database() | ✅ Database initialization completed
+2025-06-19 01:19:54 | DEBUG    | asyncio:64 | __init__() | Using selector: SelectSelector
+2025-06-19 01:19:54 | INFO     | root:113 | <module>() | 🚀 Starting RAG Query API application
+2025-06-19 01:19:54 | INFO     | root:114 | <module>() | 📁 Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 01:19:54 | INFO     | root:115 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:54 | INFO     | root:116 | <module>() | 📝 Database exists: True
+2025-06-19 01:19:54 | INFO     | root:120 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 01:19:54 | INFO     | root:122 | <module>() | 📊 Configuration loaded:
+2025-06-19 01:19:54 | INFO     | root:123 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 01:19:54 | INFO     | root:124 | <module>() |    - Max results: 15
+2025-06-19 01:19:54 | INFO     | root:125 | <module>() |    - Max context chunks: 4
+2025-06-19 01:19:54 | INFO     | root:126 | <module>() |    - Request timeout: 30
+2025-06-19 01:19:54 | INFO     | root:127 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 01:19:54 | INFO     | root:128 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 01:19:54 | INFO     | root:134 | <module>() | � Project root: C:\Users\verma\TDS-Project-1\TDS-Project-1
+2025-06-19 01:19:54 | INFO     | root:135 | <module>() | 📊 Database path: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:54 | INFO     | root:136 | <module>() | 📝 Database exists: True
+2025-06-19 01:19:54 | INFO     | root:140 | <module>() | 📂 Data directory: C:\Users\verma\TDS-Project-1\TDS-Project-1\data
+2025-06-19 01:19:54 | INFO     | root:143 | <module>() |    - Similarity threshold: 0.68
+2025-06-19 01:19:54 | INFO     | root:144 | <module>() |    - Max results: 15
+2025-06-19 01:19:54 | INFO     | root:145 | <module>() |    - Max context chunks: 4
+2025-06-19 01:19:54 | INFO     | root:146 | <module>() |    - Request timeout: 30s
+2025-06-19 01:19:54 | INFO     | root:147 | <module>() |    - Max retries: 3
+2025-06-19 01:19:54 | INFO     | root:148 | <module>() |    - Embedding model: text-embedding-3-small
+2025-06-19 01:19:54 | INFO     | root:149 | <module>() |    - Chat model: gpt-4o-mini
+2025-06-19 01:19:54 | INFO     | root:159 | <module>() | ✅ AIPipe API key configured: eyJhbGci...IyQI
+2025-06-19 01:19:54 | INFO     | root:250 | <module>() | ✅ FastAPI application initialized with enhanced middleware
+2025-06-19 01:19:54 | INFO     | root:296 | initialize_database() | 🗄️  Initializing database...
+2025-06-19 01:19:54 | INFO     | root:311 | initialize_database() | 📂 Using existing database: C:\Users\verma\TDS-Project-1\TDS-Project-1\data\knowledge_base_compressed.db
+2025-06-19 01:19:54 | INFO     | root:439 | initialize_database() | 📊 Database statistics:
+2025-06-19 01:19:54 | INFO     | root:440 | initialize_database() |    - Discourse chunks: 3651 (0 with embeddings)
+2025-06-19 01:19:54 | INFO     | root:441 | initialize_database() |    - Markdown chunks: 380 (0 with embeddings)
+2025-06-19 01:19:54 | INFO     | root:442 | initialize_database() | ✅ Database initialization completed
+2025-06-19 01:19:54 | INFO     | root:1734 | startup_event() | 🚀 Application startup initiated...
+2025-06-19 01:19:54 | INFO     | root:1737 | startup_event() | 🔗 Testing AIPipe connectivity during startup...
+2025-06-19 01:19:54 | INFO     | root:502 | test_aipipe_connection() | 🔗 Testing AIPipe connection...
+2025-06-19 01:19:56 | INFO     | root:520 | test_aipipe_connection() | ✅ AIPipe connection successful
+2025-06-19 01:19:56 | INFO     | root:654 | startup_aipipe_test() | 🔌 AIPipe connection status: connected - AIPipe API is accessible
+2025-06-19 01:19:56 | INFO     | root:1745 | startup_event() | 📊 Application startup completed:
+2025-06-19 01:19:56 | INFO     | root:1746 | startup_event() |    - Database chunks: discourse=3651, markdown=380
+2025-06-19 01:19:56 | INFO     | root:1747 | startup_event() |    - Embeddings: discourse=0, markdown=0
+2025-06-19 01:19:56 | INFO     | root:1748 | startup_event() |    - AIPipe status: connected
+2025-06-19 01:19:56 | INFO     | root:1749 | startup_event() |    - Configuration: threshold=0.68, max_results=15
+2025-06-19 01:19:56 | INFO     | root:1751 | startup_event() | ✅ RAG Knowledge Base API is ready to serve requests!
+2025-06-19 01:20:14 | INFO     | root:232 | log_requests() | 📨 POST /query from 127.0.0.1
+2025-06-19 01:20:14 | INFO     | root:232 | log_requests() | 📨 POST /query from 127.0.0.1
+2025-06-19 01:20:14 | INFO     | root:1436 | query_knowledge_base() | 🔍 New query request: 'The question asks to use gpt-3.5-turbo-0125 model ...' (has_image: False)
+2025-06-19 01:20:14 | DEBUG    | root:1462 | query_knowledge_base() | 🗄️  Establishing database connection...
+2025-06-19 01:20:14 | INFO     | root:1466 | query_knowledge_base() | 🔄 Processing query embedding...
+2025-06-19 01:20:14 | INFO     | root:1195 | process_multimodal_query() | 🖼️  Processing multimodal query: 'The question asks to use gpt-3.5-turbo-0125 model ...', has_image: False
+2025-06-19 01:20:14 | DEBUG    | root:1198 | process_multimodal_query() | 📝 No image provided, processing as text-only query
+2025-06-19 01:20:14 | DEBUG    | root:567 | get_embedding() | 🔄 Getting embedding (attempt 1/3) for text length: 189
+2025-06-19 01:20:14 | INFO     | root:1436 | query_knowledge_base() | 🔍 New query request: 'If a student scores 10/10 on GA4 as well as a bonu...' (has_image: False)
+2025-06-19 01:20:14 | DEBUG    | root:1462 | query_knowledge_base() | 🗄️  Establishing database connection...
+2025-06-19 01:20:14 | INFO     | root:1466 | query_knowledge_base() | 🔄 Processing query embedding...
+2025-06-19 01:20:14 | INFO     | root:1195 | process_multimodal_query() | 🖼️  Processing multimodal query: 'If a student scores 10/10 on GA4 as well as a bonu...', has_image: False
+2025-06-19 01:20:14 | DEBUG    | root:1198 | process_multimodal_query() | 📝 No image provided, processing as text-only query
+2025-06-19 01:20:14 | DEBUG    | root:567 | get_embedding() | 🔄 Getting embedding (attempt 1/3) for text length: 90
+2025-06-19 01:20:15 | DEBUG    | root:594 | get_embedding() | ✅ Successfully received embedding with 1536 dimensions
+2025-06-19 01:20:15 | INFO     | root:1470 | query_knowledge_base() | ✅ Query embedding completed (1.62s)
+2025-06-19 01:20:15 | INFO     | root:1473 | query_knowledge_base() | 🔍 Searching for similar content...
+2025-06-19 01:20:15 | INFO     | root:666 | find_similar_content() | 🔍 Searching for similar content (threshold: 0.68)
+2025-06-19 01:20:15 | DEBUG    | root:671 | find_similar_content() | 📊 Querying discourse_chunks table...
+2025-06-19 01:20:15 | INFO     | root:679 | find_similar_content() | 📚 Processing 0 discourse chunks...
+2025-06-19 01:20:15 | INFO     | root:731 | find_similar_content() | ✅ Discourse processing complete: 0 processed, 0 matches
+2025-06-19 01:20:15 | DEBUG    | root:734 | find_similar_content() | 📊 Querying markdown_chunks table...
+2025-06-19 01:20:15 | INFO     | root:741 | find_similar_content() | 📄 Processing 0 markdown chunks...
+2025-06-19 01:20:15 | INFO     | root:787 | find_similar_content() | ✅ Markdown processing complete: 0 processed, 0 matches
+2025-06-19 01:20:15 | INFO     | root:791 | find_similar_content() | 📊 Total matches found: 0
+2025-06-19 01:20:15 | WARNING  | root:794 | find_similar_content() | ⚠️  No content found above similarity threshold
+2025-06-19 01:20:15 | INFO     | root:1477 | query_knowledge_base() | 📊 Content search completed (0.01s) - found 0 matches
+2025-06-19 01:20:15 | WARNING  | root:1481 | query_knowledge_base() | ⚠️  No relevant content found (1.63s total)
+2025-06-19 01:20:15 | DEBUG    | root:1585 | query_knowledge_base() | 🗄️  Database connection closed
+2025-06-19 01:20:15 | INFO     | root:242 | log_requests() | 📤 POST /query -> 200 (1.640s)
+2025-06-19 01:20:15 | INFO     | root:232 | log_requests() | 📨 POST /query from 127.0.0.1
+2025-06-19 01:20:15 | INFO     | root:1436 | query_knowledge_base() | 🔍 New query request: 'I know Docker but have not used Podman before. Sho...' (has_image: False)
+2025-06-19 01:20:15 | DEBUG    | root:1462 | query_knowledge_base() | 🗄️  Establishing database connection...
+2025-06-19 01:20:15 | INFO     | root:1466 | query_knowledge_base() | 🔄 Processing query embedding...
+2025-06-19 01:20:15 | INFO     | root:1195 | process_multimodal_query() | 🖼️  Processing multimodal query: 'I know Docker but have not used Podman before. Sho...', has_image: False
+2025-06-19 01:20:15 | DEBUG    | root:1198 | process_multimodal_query() | 📝 No image provided, processing as text-only query
+2025-06-19 01:20:15 | DEBUG    | root:567 | get_embedding() | 🔄 Getting embedding (attempt 1/3) for text length: 83
+2025-06-19 01:20:15 | DEBUG    | root:594 | get_embedding() | ✅ Successfully received embedding with 1536 dimensions
+2025-06-19 01:20:15 | INFO     | root:1470 | query_knowledge_base() | ✅ Query embedding completed (1.74s)
+2025-06-19 01:20:15 | INFO     | root:1473 | query_knowledge_base() | 🔍 Searching for similar content...
+2025-06-19 01:20:15 | INFO     | root:666 | find_similar_content() | 🔍 Searching for similar content (threshold: 0.68)
+2025-06-19 01:20:15 | DEBUG    | root:671 | find_similar_content() | 📊 Querying discourse_chunks table...
+2025-06-19 01:20:15 | INFO     | root:679 | find_similar_content() | 📚 Processing 0 discourse chunks...
+2025-06-19 01:20:15 | INFO     | root:731 | find_similar_content() | ✅ Discourse processing complete: 0 processed, 0 matches
+2025-06-19 01:20:15 | DEBUG    | root:734 | find_similar_content() | 📊 Querying markdown_chunks table...
+2025-06-19 01:20:15 | INFO     | root:741 | find_similar_content() | 📄 Processing 0 markdown chunks...
+2025-06-19 01:20:15 | INFO     | root:787 | find_similar_content() | ✅ Markdown processing complete: 0 processed, 0 matches
+2025-06-19 01:20:15 | INFO     | root:791 | find_similar_content() | 📊 Total matches found: 0
+2025-06-19 01:20:15 | WARNING  | root:794 | find_similar_content() | ⚠️  No content found above similarity threshold
+2025-06-19 01:20:15 | INFO     | root:1477 | query_knowledge_base() | 📊 Content search completed (0.00s) - found 0 matches
+2025-06-19 01:20:15 | WARNING  | root:1481 | query_knowledge_base() | ⚠️  No relevant content found (1.74s total)
+2025-06-19 01:20:15 | DEBUG    | root:1585 | query_knowledge_base() | 🗄️  Database connection closed
+2025-06-19 01:20:15 | INFO     | root:242 | log_requests() | 📤 POST /query -> 200 (1.746s)
+2025-06-19 01:20:16 | INFO     | root:232 | log_requests() | 📨 POST /query from 127.0.0.1
+2025-06-19 01:20:16 | INFO     | root:1436 | query_knowledge_base() | 🔍 New query request: 'When is the TDS Sep 2025 end-term exam?...' (has_image: False)
+2025-06-19 01:20:16 | DEBUG    | root:1462 | query_knowledge_base() | 🗄️  Establishing database connection...
+2025-06-19 01:20:16 | INFO     | root:1466 | query_knowledge_base() | 🔄 Processing query embedding...
+2025-06-19 01:20:16 | INFO     | root:1195 | process_multimodal_query() | 🖼️  Processing multimodal query: 'When is the TDS Sep 2025 end-term exam?...', has_image: False
+2025-06-19 01:20:16 | DEBUG    | root:1198 | process_multimodal_query() | 📝 No image provided, processing as text-only query
+2025-06-19 01:20:16 | DEBUG    | root:567 | get_embedding() | 🔄 Getting embedding (attempt 1/3) for text length: 39
+2025-06-19 01:20:17 | DEBUG    | root:594 | get_embedding() | ✅ Successfully received embedding with 1536 dimensions
+2025-06-19 01:20:17 | INFO     | root:1470 | query_knowledge_base() | ✅ Query embedding completed (1.51s)
+2025-06-19 01:20:17 | INFO     | root:1473 | query_knowledge_base() | 🔍 Searching for similar content...
+2025-06-19 01:20:17 | INFO     | root:666 | find_similar_content() | 🔍 Searching for similar content (threshold: 0.68)
+2025-06-19 01:20:17 | DEBUG    | root:671 | find_similar_content() | 📊 Querying discourse_chunks table...
+2025-06-19 01:20:17 | INFO     | root:679 | find_similar_content() | 📚 Processing 0 discourse chunks...
+2025-06-19 01:20:17 | INFO     | root:731 | find_similar_content() | ✅ Discourse processing complete: 0 processed, 0 matches
+2025-06-19 01:20:17 | DEBUG    | root:734 | find_similar_content() | 📊 Querying markdown_chunks table...
+2025-06-19 01:20:17 | INFO     | root:741 | find_similar_content() | 📄 Processing 0 markdown chunks...
+2025-06-19 01:20:17 | INFO     | root:787 | find_similar_content() | ✅ Markdown processing complete: 0 processed, 0 matches
+2025-06-19 01:20:17 | INFO     | root:791 | find_similar_content() | 📊 Total matches found: 0
+2025-06-19 01:20:17 | WARNING  | root:794 | find_similar_content() | ⚠️  No content found above similarity threshold
+2025-06-19 01:20:17 | INFO     | root:1477 | query_knowledge_base() | 📊 Content search completed (0.00s) - found 0 matches
+2025-06-19 01:20:17 | WARNING  | root:1481 | query_knowledge_base() | ⚠️  No relevant content found (1.52s total)
+2025-06-19 01:20:17 | DEBUG    | root:1585 | query_knowledge_base() | 🗄️  Database connection closed
+2025-06-19 01:20:17 | INFO     | root:242 | log_requests() | 📤 POST /query -> 200 (1.520s)
+2025-06-19 01:20:18 | INFO     | root:232 | log_requests() | 📨 POST /query from 127.0.0.1
+2025-06-19 01:20:18 | INFO     | root:1436 | query_knowledge_base() | 🔍 New query request: 'What tools are recommended for data visualization ...' (has_image: False)
+2025-06-19 01:20:18 | DEBUG    | root:1462 | query_knowledge_base() | 🗄️  Establishing database connection...
+2025-06-19 01:20:18 | INFO     | root:1466 | query_knowledge_base() | 🔄 Processing query embedding...
+2025-06-19 01:20:18 | INFO     | root:1195 | process_multimodal_query() | 🖼️  Processing multimodal query: 'What tools are recommended for data visualization ...', has_image: False
+2025-06-19 01:20:18 | DEBUG    | root:1198 | process_multimodal_query() | 📝 No image provided, processing as text-only query
+2025-06-19 01:20:18 | DEBUG    | root:567 | get_embedding() | 🔄 Getting embedding (attempt 1/3) for text length: 57
+2025-06-19 01:20:18 | DEBUG    | root:594 | get_embedding() | ✅ Successfully received embedding with 1536 dimensions
+2025-06-19 01:20:18 | INFO     | root:1470 | query_knowledge_base() | ✅ Query embedding completed (1.56s)
+2025-06-19 01:20:18 | INFO     | root:1473 | query_knowledge_base() | 🔍 Searching for similar content...
+2025-06-19 01:20:18 | INFO     | root:666 | find_similar_content() | 🔍 Searching for similar content (threshold: 0.68)
+2025-06-19 01:20:18 | DEBUG    | root:671 | find_similar_content() | 📊 Querying discourse_chunks table...
+2025-06-19 01:20:18 | INFO     | root:679 | find_similar_content() | 📚 Processing 0 discourse chunks...
+2025-06-19 01:20:18 | INFO     | root:731 | find_similar_content() | ✅ Discourse processing complete: 0 processed, 0 matches
+2025-06-19 01:20:18 | DEBUG    | root:734 | find_similar_content() | 📊 Querying markdown_chunks table...
+2025-06-19 01:20:18 | INFO     | root:741 | find_similar_content() | 📄 Processing 0 markdown chunks...
+2025-06-19 01:20:18 | INFO     | root:787 | find_similar_content() | ✅ Markdown processing complete: 0 processed, 0 matches
+2025-06-19 01:20:18 | INFO     | root:791 | find_similar_content() | 📊 Total matches found: 0
+2025-06-19 01:20:18 | WARNING  | root:794 | find_similar_content() | ⚠️  No content found above similarity threshold
+2025-06-19 01:20:18 | INFO     | root:1477 | query_knowledge_base() | 📊 Content search completed (0.01s) - found 0 matches
+2025-06-19 01:20:18 | WARNING  | root:1481 | query_knowledge_base() | ⚠️  No relevant content found (1.58s total)
+2025-06-19 01:20:18 | DEBUG    | root:1585 | query_knowledge_base() | 🗄️  Database connection closed
+2025-06-19 01:20:18 | INFO     | root:242 | log_requests() | 📤 POST /query -> 200 (1.579s)
+2025-06-19 01:20:19 | DEBUG    | root:594 | get_embedding() | ✅ Successfully received embedding with 1536 dimensions
+2025-06-19 01:20:19 | INFO     | root:1470 | query_knowledge_base() | ✅ Query embedding completed (1.39s)
+2025-06-19 01:20:19 | INFO     | root:1473 | query_knowledge_base() | 🔍 Searching for similar content...
+2025-06-19 01:20:19 | INFO     | root:666 | find_similar_content() | 🔍 Searching for similar content (threshold: 0.68)
+2025-06-19 01:20:19 | DEBUG    | root:671 | find_similar_content() | 📊 Querying discourse_chunks table...
+2025-06-19 01:20:19 | INFO     | root:679 | find_similar_content() | 📚 Processing 0 discourse chunks...
+2025-06-19 01:20:19 | INFO     | root:731 | find_similar_content() | ✅ Discourse processing complete: 0 processed, 0 matches
+2025-06-19 01:20:19 | DEBUG    | root:734 | find_similar_content() | 📊 Querying markdown_chunks table...
+2025-06-19 01:20:19 | INFO     | root:741 | find_similar_content() | 📄 Processing 0 markdown chunks...
+2025-06-19 01:20:19 | INFO     | root:787 | find_similar_content() | ✅ Markdown processing complete: 0 processed, 0 matches
+2025-06-19 01:20:19 | INFO     | root:791 | find_similar_content() | 📊 Total matches found: 0
+2025-06-19 01:20:19 | WARNING  | root:794 | find_similar_content() | ⚠️  No content found above similarity threshold
+2025-06-19 01:20:19 | INFO     | root:1477 | query_knowledge_base() | 📊 Content search completed (0.01s) - found 0 matches
+2025-06-19 01:20:19 | WARNING  | root:1481 | query_knowledge_base() | ⚠️  No relevant content found (1.40s total)
+2025-06-19 01:20:19 | DEBUG    | root:1585 | query_knowledge_base() | 🗄️  Database connection closed
+2025-06-19 01:20:19 | INFO     | root:242 | log_requests() | 📤 POST /query -> 200 (1.406s)
